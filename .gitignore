@@ -1,0 +1,12 @@
+churn_pre_env/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/*.csv
+*.log
+*.tmp
+*.DS_Store
+.vscode/
+zenml_outputs/

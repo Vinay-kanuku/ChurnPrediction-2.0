@@ -1,0 +1,34 @@
+customer_churn_prediction/
+├── data/
+├── eda/
+│   ├── univariate_analysis.py
+│   ├── bivariate_analysis.py
+│   ├── eda_pipeline.py
+│   └── visualizations.py
+├── pipelines/
+│   ├── __init__.py
+│   ├── data_ingestion_pipeline.py
+│   ├── preprocessing_pipeline.py
+│   ├── model_training_pipeline.py
+│   ├── evaluation_pipeline.py
+│   └── factory.py
+├── src/
+│   ├── data/
+│   │   ├── ingestion.py
+│   │   └── validation.py
+│   ├── models/
+│   │   ├── training.py
+│   │   └── inference.py
+│   └── evaluation/
+│       ├── metrics.py
+│       └── visualization.py
+├── tests/
+│   ├── unit/
+│   ├── integration/
+├── config/
+│   ├── config.yaml
+│   ├── dev.yaml
+│   └── prod.yaml
+├── notebooks/
+├── requirements.txt
+├── README.md
